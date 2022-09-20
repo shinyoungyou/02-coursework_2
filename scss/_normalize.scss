@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $defaultFont;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+}
+
+[class*="chevron"] {
+  text-decoration: none;
+  color: $defaultRed;
+  border-radius: 50%;
+  border: 2px solid $defaultRed;
+}

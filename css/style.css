@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+}
+
+/* MOBILE DEVICE VERSION */
+@media (min-width: 300px) {
+  header {
+    background-image: url("/img/bg-header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 57vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  header > details {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  header > details > summary {
+    padding: 2% 3%;
+    list-style: none;
+    font-size: 30px;
+    text-align: right;
+  }
+
+  header > details > ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header > details li {
+    display: flex;
+    width: 100%;
+  }
+
+  header > details a {
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    text-transform: capitalize;
+    background-color: rgba(150, 150, 150, 0.4);
+    border-bottom: 1px solid white;
+    padding: 2% 4%;
+  }
+
+  header > article {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2% 3%;
+    width: 70%;
+    text-transform: capitalize;
+  }
+
+  header > article a {
+    color: white;
+    padding-left: 2%;
+  }
+
+  header > article i {
+    font-size: 50px;
+  }
+
+  header > article .fa-regular {
+    transform: translate(-70%, 40%);
+  }
+
+  header > article h1 {
+    padding-top: 7%;
+    font-size: 40px;
+    font-weight: 400;
+  }
+  header > article h4 {
+    font-weight: 400;
+  }
+
+  header > nav {
+    display: none;
+  }
+
+  /* HEADER SECTION END */
+  /* MAIN SECTION */
+
+  main > section {
+    padding: 5%;
+  }
+
+  .title {
+    padding-top: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+  }
+
+  .title h2 {
+    text-transform: capitalize;
+    color: mediumseagreen;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  p {
+    line-height: 1.5;
+    color: dimgray;
+  }
+  .about {
+  }
+
+  .about img {
+    width: 100%;
+  }
+
+  .about h3 {
+    color: cornflowerblue;
+  }
+
+  .about h4 {
+    color: mediumvioletred;
+  }
+}
